@@ -2,7 +2,7 @@ import Control.Monad
 
 -- main :: IO ()
 main = do
-    putStrLn "Write the prime to be factored (or ''Exit'' to exit the program):"
+    putStrLn "**WRITE** the **NUMBER** to be factored in primes (or ''Exit'' to exit the program):"
     numberToBeFactoredStr <- getLine
     unless (numberToBeFactoredStr == "Exit") $ do
     -- process lines:
